@@ -38,6 +38,32 @@ A Neovim plugin that displays live LSP hover documentation in a persistent split
 }
 ```
 
+#### Version Pinning
+
+You can pin to a specific version to ensure stability:
+
+```lua
+-- Pin to a specific version
+{
+    "YanniPapandreou/livedocs.nvim",
+    version = "0.1.0",
+    opts = { }
+}
+
+-- Use any 0.x version (auto-updates to 0.2.0, 0.3.0, etc.)
+{
+    "YanniPapandreou/livedocs.nvim",
+    version = "^0.1",
+    opts = { }
+}
+
+-- Always use the latest version (default behavior)
+{
+    "YanniPapandreou/livedocs.nvim",
+    opts = { }
+}
+```
+
 
 ## Usage
 
