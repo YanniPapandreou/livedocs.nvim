@@ -132,3 +132,7 @@ Run `:checkhealth livedocs` to verify your setup (see `lua/livedocs/health.lua:1
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Acknowledgements
+
+This plugin was motivated by the live documentation overview in the [Marimo](https://marimo.io/) notebook editor interface.
